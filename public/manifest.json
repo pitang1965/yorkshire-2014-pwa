@@ -1,0 +1,22 @@
+{
+  "name": "Yorkshire 2014",
+  "short_name": "Yorkshire",
+  "start_url": "index.html",
+  "background_color": "#fdfdfd",
+  "display": "standalone",
+  "theme_color": "#b723e4",
+  "orientation": "portrait-primary",
+
+  "icons": [
+    {
+      "src": "images/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
