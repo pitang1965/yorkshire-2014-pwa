@@ -1,22 +1,22 @@
 const staticCacheName = 'static-cache-v3'; // インストール時にキャッシュ」
 const dynamicCacheName = 'dynamic-cache-v1'; // 動的にキャッシュ
 const assets = [
-  '/',
-  '/index.html',
-  '/pages/fallback.html',
-  '/css/style.css',
-  '/css/popup.css',
-  '/js/app.js',
-  '/images/with-keith.jpg',
-  '/images/hawes.jpg',
-  '/images/skipton.jpg',
-  '/images/camden.jpg',
-  '/images/sheep.jpg',
-  '/images/gordale-scar.jpg',
-  '/images/malham-cove.jpg',
-  '/images/malham-cove2.jpg',
-  '/images/bolton-abbey.jpg',
-  '/images/sorry.png'
+  './',
+  './index.html',
+  './pages/fallback.html',
+  './css/style.css',
+  './css/popup.css',
+  './js/app.js',
+  './images/with-keith.jpg',
+  './images/hawes.jpg',
+  './images/skipton.jpg',
+  './images/camden.jpg',
+  './images/sheep.jpg',
+  './images/gordale-scar.jpg',
+  './images/malham-cove.jpg',
+  './images/malham-cove2.jpg',
+  './images/bolton-abbey.jpg',
+  './images/sorry.png'
 ];
 
 // サービスワーカーのインストール（初回インストール時にアセットをキャッシュする）
