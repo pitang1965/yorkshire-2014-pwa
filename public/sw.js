@@ -1,4 +1,4 @@
-const staticCacheName = 'static-cache-v3'; // インストール時にキャッシュ」
+const staticCacheName = 'static-cache-v4'; // インストール時にキャッシュ」
 const dynamicCacheName = 'dynamic-cache-v1'; // 動的にキャッシュ
 const assets = [
   './',
@@ -53,7 +53,7 @@ self.addEventListener('fetch', evt => {
       })
     }).catch(() => {
       if (evt.request.url.indexOf('.html') > -1) {
-        return caches.match('/pages/fallback.html');
+        return caches.match('./pages/fallback.html');
       }
     })
   );

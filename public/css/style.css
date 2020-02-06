@@ -80,3 +80,13 @@ h1 {
   line-height: 3.0em;
   align-items: center;
 }
+
+.about-container {
+  display: block;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: left;
+  list-style: georgian outside url('../yama.ico');
+  margin: 3rem;
+}
