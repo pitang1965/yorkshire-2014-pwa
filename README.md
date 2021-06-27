@@ -5,6 +5,7 @@ Some photograph of Yorkshire (England)
 # DEMO
 https://software.pitang1965.com/pwa/public/
 https://yorkshire-2014-pwa.firebaseapp.com/
+https://yorkshire-2014-pwa.netlify.app/
 
 # Features
  
