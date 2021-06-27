@@ -3,7 +3,7 @@ Some photograph of Yorkshire (England)
 英国のヨークシャー地方を訪ねた思い出写真を並べたアプリで、PWAの学習のために作ったものです。
 
 # DEMO
-https://software.pitang1965.com/pwa/public/
+https://software.pitang1965.com/yorkshire-2014-pwa
 https://yorkshire-2014-pwa.firebaseapp.com/
 https://yorkshire-2014-pwa.netlify.app/
 
