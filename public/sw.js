@@ -29,7 +29,7 @@ self.addEventListener('install', evt => {
 });
 
 // 古いキャッシュを削除する（staticCacheNameが変わったら）
-self.addEventListener('activae', evt => {
+self.addEventListener('activate', evt => {
   evt.waitUntil(
     caches.keys().then(keys => {
       return Promise.all(keys
